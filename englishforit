@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English for IT</title>
+
+  <style>
+    /* === General Styling === */
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* === Header === */
+    header {
+      background: linear-gradient(135deg, #ff7300, #ff7300);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 220px;
+      text-align: center;
+    }
+
+    .header-content h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 1px;
+    }
+
+    .header-content p {
+      font-size: 1.2rem;
+      color: #dce3ea;
+      margin-top: 10px;
+    }
+
+    /* === Navigation === */
+    nav {
+      background-color: #ff7300;
+      text-align: center;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      margin: 10px 15px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #caf0f8;
+    }
+
+    /* === Main Content === */
+    main {
+      padding: 40px 10%;
+    }
+
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Centered Headers for Each Section */
+    h2 {
+      text-align: center;
+      color: #ff7300;
+      border-bottom: 2px solid #ff7300;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+
+    /* === Glossary Table === */
+    .glossary-container {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    th {
+      background-color: #ff7300;
+      color: white;
+      font-weight: 600;
+    }
+
+    /* Smaller, proportional glossary icons */
+    td img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      opacity: 0.9;
+      transition: transform 0.2s;
+    }
+
+    /* Subtle hover animation for creativity */
+    td img:hover {
+      transform: scale(1.2);
+    }
+
+    /* === Footer === */
+    footer {
+      background-color: #ff7300;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-content">
+      <h1>English for IT</h1>
+      <p>Developing communication skills in Information Technology</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#computers">What Are Computers?</a>
+    <a href="#work">How They Work?</a>
+    <a href="#important">Most Important Part</a>
+    <a href="#components">Components</a>
+    <a href="#glossary">Glossary</a>
+  </nav>
+
+  <main>
+    <section id="computers">
+      <h2>What Are Computers?</h2>
+      <p>A computer is an electronic device that processes data and performs tasks according to a set of instructions called programs.
+      It can store, retrieve, and process information quickly and accurately. Computers are used in almost every field nowadays. They help people communicate, solve problems, and create new technologies. All computers share the same goal: to make tasks easier and faster.</p>
+    </section>
+
+    <section id="work">
+      <h2>How Do Computers Work?</h2>
+      <p>Computers work by following instructions from software. When a user gives a command, the computer’s hardware processes it using
+      binary code (0s and 1s). The central processing unit (CPU) acts like the brain, executing instructions and managing data. All
+      these components work together through the operating system to complete tasks efficiently.</p>
+    </section>
+
+    <section id="important">
+      <h2>What Is the Most Important Part of a Computer?</h2>
+      <p>The most important part of a computer is the <strong>CPU (Central Processing Unit)</strong>. It performs all calculations and controls
+      other components. The CPU interprets and executes instructions. Without it, the
+      computer cannot function.</p>
+    </section>
+
+    <section id="components">
+      <h2>What Are the Components of a Computer?</h2>
+      <p>A computer system is made up of <strong>hardware</strong> and <strong>software</strong>. Hardware includes physical parts such as the monitor,
+      keyboard, mouse, CPU, RAM, hard drive, and motherboard. Software refers to programs and operating systems that tell the hardware
+      what to do. All these components work together to perform tasks, store data, and communicate with users.</p>
+    </section>
+
+    <section id="glossary">
+      <h2>Glossary of IT Terms</h2>
+      <div class="glossary-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Icon</th>
+              <th>Term</th>
+              <th>Definition</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/543/543275.png"></td><td>CPU</td><td>Main chip that processes data and instructions.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2703/2703588.png"></td><td>RAM</td><td>Temporary memory used for quick data access.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/7005/7005213.png"></td><td>Motherboard</td><td>Main circuit board connecting all parts.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2250/2250195.png"></td><td>Hard Drive</td><td>Stores data permanently.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2286/2286865.png"></td><td>SSD</td><td>Fast storage with no moving parts.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1470/1470120.png"></td><td>GPU</td><td>Processes graphics and visual data.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/183/183324.png"></td><td>Operating System</td><td>Controls hardware and software operations.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2209/2209817.png"></td><td>Software</td><td>Programs that instruct the computer what to do.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2662/2662398.png"></td><td>Hardware</td><td>Physical components of a computer.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/5205/5205407.png"></td><td>Input Device</td><td>Used to send data to the computer (keyboard, mouse).</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/3569/3569998.png"></td><td>Output Device</td><td>Shows results (monitor, printer).</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/647/647857.png"></td><td>Binary Code</td><td>Language of computers using 0s and 1s.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2562/2562060.png"></td><td>Network</td><td>Group of computers connected to share data.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1548/1548787.png"></td><td>Server</td><td>Provides data or services to other computers.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/757/757401.png"></td><td>Cloud Computing</td><td>Storing and processing data online.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/9850/9850774.png"></td><td>Database</td><td>Organized collection of data.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1119/1119005.png"></td><td>Algorithm</td><td>Step-by-step process to solve problems.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/256/5968/5968350.png"></td><td>Programming Language</td><td>Language for writing code (e.g., Python, Java).</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/2059/2059030.png"></td><td>Firewall</td><td>Protects networks from unauthorized access.</td></tr>
+            <tr><td><img src="https://cdn-icons-png.flaticon.com/512/1691/1691940.png"></td><td>Cybersecurity</td><td>Protection of computers and networks from attacks.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Telmo Jesus e Bernardo Silva | English for IT Project | © 2025</p>
+  </footer>
+</body>
+</html>
